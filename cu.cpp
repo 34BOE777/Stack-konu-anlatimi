@@ -60,7 +60,7 @@ cout << "Elleman silindi "<< top->data << endl;
 Node* temp = top;
 top = top->next;
 delete(temp);
-count++;
+count--;
 }
 }
 
